@@ -9,7 +9,7 @@ const PORT=8000;
 const app=express();
 
 app.use(cors({
-    origin:"https://voosh-frontend-lemon.vercel.app/",
+    origin:"https://voosh-frontend-lemon.vercel.app",
     credentials:true
 }))
 app.use(express.json());
